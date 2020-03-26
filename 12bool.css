@@ -20,6 +20,16 @@
     clear: both;
 }
 
+.row {
+    width: 100%;
+}
+
+#lezioni img , #why img, #steps img {
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+}
+
 @media all and (min-width:992px) {
     .col-lg-1 {
         width: calc(100%/12 );
